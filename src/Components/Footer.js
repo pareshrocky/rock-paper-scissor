@@ -10,7 +10,7 @@ const Footer = () => {
         <>
             <footer className="footer"> <div className="attribution">
                 Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-                Coded by <a href="#">Anonymous</a>.
+                Coded by <a href="#">Programmer...</a>.
             </div>
             <button className="rules" onClick={toggle}>Rules</button>
             </footer>
