@@ -16,7 +16,7 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
-  "homepage": "https://pareshrocky.github.io",
+  "homepage": "https://pareshrocky.github.io/rock-paper-scissor",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",

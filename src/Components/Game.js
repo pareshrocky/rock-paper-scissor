@@ -65,7 +65,7 @@ const Game = ({ score, myChoice, setScore }) => {
       {playerWin === "win" && (
         <div className="game__play">
           <span className="text">You Win</span>
-          <Link to="/" className="play-again" onClick={() => setHouse()}>
+          <Link to="/rock-paper-scissor" className="play-again" onClick={() => setHouse()}>
             Play Again
           </Link>
         </div>
@@ -73,7 +73,7 @@ const Game = ({ score, myChoice, setScore }) => {
       {playerWin === "lose" && (
         <div className="game__play">
           <span className="text">You Lose</span>
-          <Link to="/" className="play-again" onClick={() => setHouse()}>
+          <Link to="/rock-paper-scissor" className="play-again" onClick={() => setHouse()}>
             Play Again
           </Link>
         </div>
@@ -81,7 +81,7 @@ const Game = ({ score, myChoice, setScore }) => {
       {playerWin === "draw" && (
         <div className="game__play">
           <span className="text">Draw</span>
-          <Link to="/" className="play-again" onClick={() => setHouse()}>
+          <Link to="/rock-paper-scissor" className="play-again" onClick={() => setHouse()}>
             Play Again
           </Link>
         </div>

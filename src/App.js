@@ -13,8 +13,8 @@ export default function App() {
       <div className="container">
         <Header score={score}/>
         <Routes>
-        <Route path='/' element={<Play setMyChoice={ setMyChoice} />} />
-        <Route path='/game' element={<Game myChoice={myChoice} score={score} setScore={setScore}/>} />
+        <Route path='/rock-paper-scissor' element={<Play setMyChoice={ setMyChoice} />} />
+        <Route path='/rock-paper-scissor/game' element={<Game myChoice={myChoice} score={score} setScore={setScore}/>} />
         </Routes>
       </div>
       <Footer/>

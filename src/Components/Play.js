@@ -13,13 +13,13 @@ const Play = ({setMyChoice}) => {
         <div className="play">
             <img src={Traingle} alt="" className="traingle"/>
             <div className="items">
-                <Link to="/game">
+                <Link to="/rock-paper-scissor/game">
                     <div data-id="paper" className="icon icon-paper" onClick={handleChoice}></div>
                 </Link>
-                <Link to="/game">
+                <Link to="/rock-paper-scissor/game">
                     <div data-id="scissors" className="icon icon-scissors" onClick={handleChoice}></div>
                 </Link>
-                <Link to="/game">
+                <Link to="/rock-paper-scissor/game">
                     <div data-id="rock" className="icon icon-rock" onClick={handleChoice}></div>
                 </Link>
             </div>
